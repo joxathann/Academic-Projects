@@ -1,0 +1,74 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+#hero-section {
+  /* This should be an image. */
+  background-color: aqua;
+  background-image: url(https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+  background-size: cover;
+  background-position: 50% 25%;
+  /* Change this values to work for you. */
+  padding: clamp(100px, 50vh, 200px) 0;
+}
+nav{
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: clamp(10px, 30vh, 100px) auto;
+  border-radius: 100px;
+  border-style: solid;
+  
+  border-color: rgba(0,0,0,.5);
+
+  /* This should be an image */
+  background-image:url("img/handshake_pfp.jpg");
+  background-color: blue;
+
+  /* Change this values to work for you. */
+  height: clamp(140px, 40vh, 200px);
+
+  /* Change this values to work for you. */
+  width: clamp(140px, 40vh, 200px);
+  background-position: 50% 30%;
+} 
+
+#hero-text{
+  text-align: center;
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold;
+}
+
+#mission-section{
+  padding-top: 5px;
+  background-color: #000;
+  color: whitesmoke;
+
+}
+
+#skills-section{
+  background-color:#333333;
+  color: whitesmoke;
+}
+
+#icon-img{
+  height: 100px;
+  width: 100px;
+}
+
+#carousel-image{
+  opacity: .4;
+ 
+}
+
+.text-responsive {
+  font-size: 3vw;
+  
+}
+
+section img:hover{
+  opacity: .5;
+}
