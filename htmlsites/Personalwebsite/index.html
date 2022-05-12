@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Johnathan Gonzalez</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top  ">
+  <div class="container-fluid shadow-lg">
+    <a class="navbar-brand" href="#hero-section"><i class="bi bi-house-door"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" collapse navbar-collapse justify-content-end "  id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#mission-section">Mission</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#skills-section">Skills</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#inspiration-section">Inspiration</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#contact-section">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </div>
+  <!-- Hero section -->
+  <section id="hero-section">
+    <!-- Start writing your hero section here. -->
+    <div id="profile-img"></div>
+    <h2 id="hero-text">Johnathan Gonzalez</h2>
+    <h4 id="hero-text">Aspiring programmer</h4>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission-section" class="container-fluid">
+    <!-- Start writing your Mission/Meet-me section here. -->
+      <h3 class="text-center">Mission Section</h3>
+    <div class="row">
+      <img src="https://www.ericsson.com/49419c/assets/global/qbank/2021/03/11/gaming-129694511d4f7159bb1454d52ed2aa73819e7d.jpg" id="mission-img" class="img-fluid p-2 col-sm-12 col-md-6 col-lg-6">
+
+      <p class=" text-center float-end col-sm-12 col-md-6 col-lg-6">My mission as a programmer is to be able to work in a large gaming company. I've been studying as a Computer Engineer at the University of South Florida in order to learn both hardware and software development. Ever since I was young I've always wanted to program up either computer hardware or hopefully video games</p>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <div id="skills-section">
+      <div class="container-fluid">
+      <!-- Start writing your skills section here. -->
+        <div class="row">
+          <h3 class="text-center">Skills Section</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+              <img  id="icon-img" class="img-fluid" src="img/html5.png"/>
+              <p>Structuring website content using modern semantic with HTML5.</p>
+        
+            </div>
+
+            <div class="col-lg-3 col-md-6  text-center">
+              <img class="img-fluid" id="icon-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS logo">
+              <p >Styling pages in CSS to make professional styled pages</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid" id="icon-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"/>
+              <p ">Object oriented programming in C++ working with data structures and more</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center ">
+            <img class="img-fluid " id="icon-img" src="https://pics.freeicons.io/uploads/icons/png/15347564851553750215-512.png">
+            <p >General code knowledge in Java with a touch in object oriented programming</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration-section" class="text-center container">
+    <h3>Inspiration Section</h3>
+
+    <div id="carouselExampleCaptions" class="carousel slide m-auto" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 " id="carousel-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/919ca1e7-20b5-444f-a1f2-d7a266a55dc3/d5hb5wh-57f3a299-2bdb-48b5-b032-88257146b271.jpg/v1/fill/w_900,h_600,q_75,strp/cyborg_ninja_gray_fox_figure_06_by_vladsnake_d5hb5wh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxOWNhMWU3LTIwYjUtNDQ0Zi1hMWYyLWQ3YTI2NmE1NWRjM1wvZDVoYjV3aC01N2YzYTI5OS0yYmRiLTQ4YjUtYjAzMi04ODI1NzE0NmIyNzEuanBnIiwiaGVpZ2h0IjoiPD02MDAiLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLndhdGVybWFyayJdLCJ3bWsiOnsicGF0aCI6Ilwvd21cLzkxOWNhMWU3LTIwYjUtNDQ0Zi1hMWYyLWQ3YTI2NmE1NWRjM1wvdmxhZHNuYWtlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.BUyzF6PkTlOQNbtFShHXrPbG4NsrnjbhDEWBPEzUtSk" alt="First slide">
+      <div class="carousel-caption">
+        <h3 class="text-responsive">Snake. We're not tools of the government, or anyone else. Fighting was the only thing... the only thing I was good at. But... at least I always fought for what I believed in.</h3>
+        <p class="text-responsive">Gray Fox</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " id="carousel-image" src="https://e7.pngegg.com/pngimages/339/355/png-clipart-deus-ex-mankind-divided-deus-ex-human-revolution-shadowrun-ipad-deus-ex-computer-video-game.png" alt="Second slide">
+      <div class="carousel-caption">
+        <h3 class="text-responsive">I never asked for this.</h3>
+        <p class="text-responsive">Adam Jensen</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " id="carousel-image" src="img/bt-7247.png" alt="Third slide">
+      <div class="carousel-caption">
+        <h3 class="text-responsive">Trust me.</h3>
+        <p class="text-responsive">BT-7274</p>
+      </div>
+    </div>
+  
+ <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section" class="container text-center">
+    <row>
+      <h3 class="col text-center">Contact me</h3>
+    </row> 
+
+    <row>
+      <div class="col-lg-3 col-md-3 col-sm-12 d-inline-block pb-2">
+
+       <a href="https://www.linkedin.com/in/johnathan-gonzalez-058534209/"><img class="img-fluid" id="icon-img" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="linkedin icon"></img></h1></a>
+      
+      </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-12 d-inline-block pb-2 ">
+      
+      <a href="https://github.com/joxathann"><img id="icon-img" class="img-fluid" src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="github icon"></a>
+      
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 pb-2 d-inline-block">
+
+      <a href="https://facebook.com/joxathann"><img id="icon-img" class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/1024px-Facebook_icon_2013.svg.png"></img></a>
+
+
+    </row>
+  </section>
+
+    
+
+  
+
+  <!-- Footer section -->
+  <div>
+    <p class="p-auto m-auto text-center bg-dark">&copy Johnathan Gonzalez 2021</p>
+  </div>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
